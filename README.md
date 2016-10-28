@@ -14,6 +14,13 @@ nasm -f elf64 -o hello.o hello.asm
 ld -o bin/hello hello.o 
 ```
 
+For rect program
+```
+$ make rect
+nasm -f elf64 -o rect.o rect.asm
+ld -o bin/rect rect.o 
+```
+
 ## Folders
 ```
 /		Asm Sources are on the root of Repository
@@ -27,3 +34,29 @@ Hello example
 $ ./bin/./hello 
 hello world!
 ```
+
+Rect example
+```
+$ ./bin/./rect 40 20
+----------------------------------------
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+-                                      -
+----------------------------------------
+```
+
