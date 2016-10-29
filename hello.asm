@@ -22,7 +22,7 @@ section .text
 
 ;; main program
 ; exec hello subroutine
-; exec exit subroutine 
+; exec exit subroutine
 _start:
 	call	.hello
 	call	.exit
