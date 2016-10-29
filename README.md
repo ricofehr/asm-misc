@@ -1,5 +1,7 @@
 # asm-misc 
 Some miscellaneous assembly programs
+- hello: print "Hello world" message
+- rect: draw a rectangle in terminal
 
 ## Compile
 
